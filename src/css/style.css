@@ -191,23 +191,28 @@ body {
 
 @media (max-width: 768px) {
     .logo img {
-        max-width: min(180px, 45vw);
+        max-width: min(150px, 35vw);
     }
     
     .main-photo {
-        max-height: 40vh;
+        max-height: 35vh;
     }
     
     .main-photo img {
-        max-width: 85vw;
+        max-width: 80vw;
     }
     
     .content-wrapper {
-        padding: 1.5vh 15px 0;
+        padding: 1vh 15px 0;
     }
     
     .social-media {
         gap: 15px;
+    }
+    
+    .social-media a {
+        width: clamp(28px, 4vw, 36px);
+        height: clamp(28px, 4vw, 36px);
     }
     
     .contact {
@@ -215,7 +220,7 @@ body {
     }
     
     .contact a {
-        font-size: clamp(0.75em, 3.5vw, 1em);
+        font-size: clamp(0.7em, 3.5vw, 0.95em);
         letter-spacing: 2px;
     }
 }
