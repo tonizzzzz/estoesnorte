@@ -125,24 +125,22 @@ body {
     filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.5));
 }
 
-/* YouTube */
+/* Spotify */
 .social-media a:nth-child(1) {
     color: #1DB954;
-    
 }
 
 .social-media a:nth-child(1):hover {
     color: #1ED760;
 }
 
-/* Spotify */
+/* YouTube */
 .social-media a:nth-child(2) {
     color: #FF0000;
 }
 
 .social-media a:nth-child(2):hover {
     color: #CC0000;
-
 }
 
 /* Instagram */
@@ -152,11 +150,11 @@ body {
 
 /* Apple Music */
 .social-media a:nth-child(4) {
-    color: #A0A0A0;
+    color: #FFFFFF;
 }
 
 .social-media a:nth-child(4):hover {
-    color: #C0C0C0;
+    color: #E0E0E0;
 }
 
 @media (max-width: 768px) {
