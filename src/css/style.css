@@ -73,7 +73,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex: 1;
     max-height: 60vh;
     width: 100%;
 }
@@ -190,8 +189,15 @@ body {
 }
 
 @media (max-width: 768px) {
+    .content-wrapper {
+        justify-content: center;
+        padding: 0 15px;
+        gap: 0;
+    }
+    
     .logo {
-        margin-top: 2vh;
+        margin-top: 0;
+        margin-bottom: 3vh;
     }
     
     .logo img {
@@ -199,15 +205,12 @@ body {
     }
     
     .main-photo {
-        max-height: 35vh;
+        max-height: 40vh;
+        margin-bottom: 3vh;
     }
     
     .main-photo img {
         max-width: 80vw;
-    }
-    
-    .content-wrapper {
-        padding: 1vh 15px 0;
     }
     
     .social-media {
@@ -220,7 +223,7 @@ body {
     }
     
     .contact {
-        padding: 1.5vh 15px;
+        padding: 2vh 15px;
     }
     
     .contact a {
