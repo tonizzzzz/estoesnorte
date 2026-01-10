@@ -1,0 +1,15 @@
+services:
+  nginx:
+    build: .
+    container_name: "estoesnorte_nginx"
+    restart: unless-stopped
+    ports:
+      - "8080:80"
+    volumes:
+      - ./src:/var/www/html:ro
+    networks:
+      - proxy
+
+networks:
+  proxy:
+    external: true
